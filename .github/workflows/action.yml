@@ -1,7 +1,0 @@
-name: 'Geant4 Docker'
-description: 'Geant4 Docker'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.who-to-greet }}  
